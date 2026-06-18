@@ -7,9 +7,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "jest": "^30.4.2"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.47.1"
+  },
+  "jest":{
+    "testPathIgnorePatterns": [
+      "functions.js"
+    ]
   }
 }
