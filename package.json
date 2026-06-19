@@ -17,7 +17,8 @@
   },
   "jest":{
     "testPathIgnorePatterns": [
-      "functions.js"
+      "functions.js",
+      "implementations"
     ]
   }
 }
