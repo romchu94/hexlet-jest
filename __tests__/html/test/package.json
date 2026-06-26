@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "papaparse": "*",
+    "js-yaml": "*"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  }
+}

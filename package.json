@@ -13,9 +13,10 @@
     "jest": "^30.4.2"
   },
   "dependencies": {
-    "es-toolkit": "^1.47.1"
+    "es-toolkit": "^1.47.1",
+    "vitest": "^4.1.9"
   },
-  "jest":{
+  "jest": {
     "testPathIgnorePatterns": [
       "functions.js",
       "implementations"
